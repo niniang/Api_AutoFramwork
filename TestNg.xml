@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Default Suite">
-  <test name="Api_AutoFramwork_Demo">
+  <test name="Api_AutoFramwork">
     <classes>
       <class name="com.qa.tests.PostApiTest"></class>
       <class name="com.qa.tests.GetApiTest"></class>
@@ -9,5 +9,5 @@
       <class name="com.qa.tests.DelectApiTest"></class>
       <class name="com.qa.tests.testCase1"></class>
     </classes>
-  </test> <!-- Api_AutoFramwork_Demo -->
+  </test> <!-- Api_AutoFramwork -->
 </suite> <!-- Default Suite -->
