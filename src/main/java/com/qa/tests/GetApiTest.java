@@ -11,6 +11,7 @@ import org.apache.http.client.methods.CloseableHttpResponse;
 import org.apache.http.util.EntityUtils;
 import org.apache.log4j.Logger;
 import org.testng.Assert;
+import org.testng.Reporter;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
@@ -36,13 +37,16 @@ public class GetApiTest extends TestBase{
         Log.info("----------开始执行用例getApiTest...----------");
         restClient = new RestClient();
         closeableHttpResponse = restClient.get(url);
+        Reporter.log("接口地址：" + url);
 
         Log.info("测试响应状态码是否是200");
         int responseStatusCode = closeableHttpResponse.getStatusLine().getStatusCode();
         Assert.assertEquals(responseStatusCode,RESPNSE_STATUS_CODE_200,"response status code is not 200");
         String responseString = EntityUtils.toString(closeableHttpResponse.getEntity(),"Utf-8");
+        Reporter.log("状态码：" + responseStatusCode);
 
         JSONObject responseJson = JSON.parseObject(responseString);
+        Reporter.log("接口响应：" + responseString);
         String s = TestUtil.getValueByJPath(responseJson,"data[0]/first_name");
         Log.info("执行JSON解析，解析的内容是 " + s);
         Log.info("接口内容响应断言");
@@ -57,11 +61,14 @@ public class GetApiTest extends TestBase{
         HashMap <String,String> headerMap = new HashMap<String, String>();
         headerMap.put("Content-Type", "application/json");
         closeableHttpResponse = restClient.get(url,headerMap);
+        Reporter.log("接口地址：" + url);
 
         Log.info("测试响应状态码是否是200");
         int responseStatusCode = closeableHttpResponse.getStatusLine().getStatusCode();
+        Reporter.log("状态码：" + responseStatusCode);
         Assert.assertEquals(responseStatusCode,RESPNSE_STATUS_CODE_200,"response status code is not 200");
         String responseString = EntityUtils.toString(closeableHttpResponse.getEntity(),"Utf-8");
+        Reporter.log("接口响应：" + responseString);
         JSONObject responseJson = JSON.parseObject(responseString);
         String s = TestUtil.getValueByJPath(responseJson,"data[0]/first_name");
         Log.info("执行JSON解析，解析的内容是 " + s);

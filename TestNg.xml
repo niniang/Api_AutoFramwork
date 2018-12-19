@@ -10,4 +10,8 @@
       <class name="com.qa.tests.testCase1"></class>
     </classes>
   </test> <!-- Api_AutoFramwork -->
+
+  <listeners>
+    <listener class-name="com.qa.report.ExtentTestNGReporterListener"></listener>
+  </listeners>
 </suite> <!-- Default Suite -->

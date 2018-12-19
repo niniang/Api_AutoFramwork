@@ -10,6 +10,7 @@ import org.apache.http.client.methods.CloseableHttpResponse;
 import org.apache.http.util.EntityUtils;
 import org.apache.log4j.Logger;
 import org.testng.Assert;
+import org.testng.Reporter;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
@@ -40,18 +41,24 @@ public class PutApiTest extends TestBase{
     public void putApiTest() throws IOException {
         Log.info("----------开始执行用例putApiTest...----------");
         restClient = new RestClient();
+
         Log.info("导入请求头");
         HashMap <String,String> headerMap = new HashMap<String, String>();
         headerMap.put("Content-Type", "application/json");
         //User user = new User("Anthony","automation tester");
         //String jsonString = JSON.toJSONString(user);
         //System.out.println(jsonString);
+
         closeableHttpResponse = restClient.put(url,jsonString,headerMap);
+        Reporter.log("接口地址：" + url);
+        Reporter.log("JSON：" + jsonString);
 
         Log.info("测试响应状态码是否是200");
         int responseStatusCode = closeableHttpResponse.getStatusLine().getStatusCode();
+        Reporter.log("状态码：" + responseStatusCode);
         Assert.assertEquals(responseStatusCode,RESPNSE_STATUS_CODE_200,"response status code is not 200");
         String responseRntity = EntityUtils.toString(closeableHttpResponse.getEntity());
+        Reporter.log("接口响应：" + responseRntity);
         JSONObject responseJson = JSON.parseObject(responseRntity);
         String s = TestUtil.getValueByJPath(responseJson,"job");
         Log.info("执行JSON解析，解析的内容是 " + s);
