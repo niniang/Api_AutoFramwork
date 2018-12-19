@@ -17,7 +17,9 @@ import java.util.HashMap;
 public class PostApiTest extends TestBase {
     TestBase testBase;
     String host;
+    String api;
     String url;
+    String userJsonString;
     RestClient restClient;
     CloseableHttpResponse closeableHttpResponse;
     final static Logger Log = Logger.getLogger(PostApiTest.class);
@@ -27,7 +29,12 @@ public class PostApiTest extends TestBase {
     public void setUp(){
         testBase = new TestBase();
         host = prop.getProperty("HOST");
-        url = host + "/api/users";
+        api = prop.getProperty("PostApi");
+        url = host + api;
+        //配置文件写入请求体
+        userJsonString = contect.getProperty("Post");
+        System.out.println(userJsonString);
+        //url = host + "/api/users";
     }
     @Test
     public void postApiTest() throws IOException {
@@ -39,8 +46,8 @@ public class PostApiTest extends TestBase {
         //User user = new User("Anthony","tester");
         //String userJsonString = JSON.toJSONString(user);
         //直接用字符串传入请求体
-        String userJsonString = "{\"job\":\"tester\",\"name\":\"Anthony\"}";
-        System.out.println(userJsonString);
+        //String userJsonString = "{\"job\":\"tester\",\"name\":\"Anthony\"}";
+        //System.out.println(userJsonString);
         closeableHttpResponse = restClient.post(url,userJsonString,headerMap);
 
         Log.info("测试响应状态码是否是201");

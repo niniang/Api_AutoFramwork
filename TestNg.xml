@@ -6,7 +6,7 @@
       <class name="com.qa.tests.PostApiTest"></class>
       <class name="com.qa.tests.GetApiTest"></class>
       <class name="com.qa.tests.PutApiTest"></class>
-      <class name="com.qa.tests.DelectApiTest"></class>
+      <class name="com.qa.tests.DeleteApiTest"></class>
       <class name="com.qa.tests.testCase1"></class>
     </classes>
   </test> <!-- Api_AutoFramwork -->

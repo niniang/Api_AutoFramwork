@@ -20,6 +20,8 @@ public class PutApiTest extends TestBase{
     TestBase testBase;
     String url;
     String host;
+    String api;
+    String jsonString;
     CloseableHttpResponse closeableHttpResponse;
     RestClient restClient;
     final static Logger Log = Logger.getLogger(PutApiTest.class);
@@ -28,7 +30,10 @@ public class PutApiTest extends TestBase{
     public void setUp(){
         testBase = new TestBase();
         host = prop.getProperty("HOST");
-        url = host + "/api/users/2";
+        api = prop.getProperty("PutApi");
+        url = host + api;
+        //url = host + "/api/users/2";
+        jsonString = contect.getProperty("Put");
     }
 
     @Test
@@ -38,9 +43,9 @@ public class PutApiTest extends TestBase{
         Log.info("导入请求头");
         HashMap <String,String> headerMap = new HashMap<String, String>();
         headerMap.put("Content-Type", "application/json");
-        User user = new User("Anthony","automation tester");
-        String jsonString = JSON.toJSONString(user);
-
+        //User user = new User("Anthony","automation tester");
+        //String jsonString = JSON.toJSONString(user);
+        //System.out.println(jsonString);
         closeableHttpResponse = restClient.put(url,jsonString,headerMap);
 
         Log.info("测试响应状态码是否是200");

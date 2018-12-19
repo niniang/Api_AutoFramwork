@@ -10,27 +10,30 @@ import org.testng.annotations.Test;
 
 import java.io.IOException;
 
-public class DelectApiTest extends TestBase{
+public class DeleteApiTest extends TestBase{
     TestBase testBase;
     String host;
+    String api;
     String url;
     RestClient restClient;
     CloseableHttpResponse closeableHttpResponse;
-    final static Logger Log = Logger.getLogger(DelectApiTest.class);
+    final static Logger Log = Logger.getLogger(DeleteApiTest.class);
 
     @BeforeClass
     public void setUp(){
         testBase = new TestBase();
         host = prop.getProperty("HOST");
-        url = host + "/api/users/2";
+        api = prop.getProperty("DeleteApi");
+        url = host + api;
+        //url = host + "/api/users/2";
     }
 
     @Test
-    public void delectApiTest() throws IOException {
-        Log.info("----------开始执行用例delectApiTest...----------");
+    public void deleteApiTest() throws IOException {
+        Log.info("----------开始执行用例deleteApiTest...----------");
         restClient = new RestClient();
 
-        closeableHttpResponse = restClient.delect(url);
+        closeableHttpResponse = restClient.delete(url);
 
         Log.info("测试响应状态码是否是204");
         int responseStatusCode = closeableHttpResponse.getStatusLine().getStatusCode();

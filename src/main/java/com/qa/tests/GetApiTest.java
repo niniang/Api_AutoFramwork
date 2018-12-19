@@ -17,6 +17,7 @@ import org.testng.annotations.Test;
 public class GetApiTest extends TestBase{
     TestBase testBase;
     String host;
+    String api;
     String url;
     RestClient restClient;
     CloseableHttpResponse closeableHttpResponse;
@@ -26,7 +27,9 @@ public class GetApiTest extends TestBase{
     public void setUp(){
         testBase = new TestBase();
         host = prop.getProperty("HOST");
-        url = host + "/api/users?page=2";
+        api = prop.getProperty("GetApi");
+        url = host + api;
+        //url = host + "/api/users?page=2";
     }
     @Test
     public void getApiTest() throws IOException {

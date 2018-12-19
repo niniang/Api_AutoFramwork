@@ -113,7 +113,7 @@ public class RestClient {
      * @return，返回一个response对象，方便进行得到状态码和json解析动作
      * @throws IOException
      */
-    public CloseableHttpResponse delect(String url) throws IOException {
+    public CloseableHttpResponse delete(String url) throws IOException {
         //创建一个可关闭的HttpClient对象
         CloseableHttpClient httpClient =HttpClients.createDefault();
         //创建一个HttpDelete对象
