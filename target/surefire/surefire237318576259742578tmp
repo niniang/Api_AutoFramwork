@@ -1,5 +1,5 @@
 #surefire
-#Thu Dec 20 14:45:33 CST 2018
+#Thu Dec 20 14:58:15 CST 2018
 enableAssertions=true
 testSuiteDefinitionTestSourceDirectory=E\:\\IdeaProjects\\Api_AutoFramwork\\src\\test\\java
 surefireClassPathUrl.3=E\:\\JenkinsHome\\workspace\\Api_AutoFramwork\\.repository\\org\\apache\\maven\\surefire\\surefire-api\\2.7.1\\surefire-api-2.7.1.jar
