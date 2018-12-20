@@ -11,7 +11,7 @@
       <![CDATA[状态码：201]]>
     </line>
     <line>
-      <![CDATA[接口响应：{"job":"tester","name":"Anthony","id":"916","createdAt":"2018-12-20T06:00:56.362Z"}]]>
+      <![CDATA[接口响应：{"job":"tester","name":"Anthony","id":"371","createdAt":"2018-12-20T06:25:26.624Z"}]]>
     </line>
     <line>
       <![CDATA[接口地址：https://reqres.in/api/users?page=2]]>
@@ -41,7 +41,7 @@
       <![CDATA[状态码：200]]>
     </line>
     <line>
-      <![CDATA[接口响应：{"job":"automation tester","name":"Anthony","updatedAt":"2018-12-20T06:00:58.637Z"}]]>
+      <![CDATA[接口响应：{"job":"automation tester","name":"Anthony","updatedAt":"2018-12-20T06:25:29.084Z"}]]>
     </line>
     <line>
       <![CDATA[接口地址：https://reqres.in/api/users/2]]>
@@ -50,16 +50,16 @@
       <![CDATA[状态码：204]]>
     </line>
   </reporter-output>
-  <suite name="Default Suite" duration-ms="5450" started-at="2018-12-20T13:57:33 CST" finished-at="2018-12-20T13:57:38 CST">
+  <suite name="Default Suite" duration-ms="5731" started-at="2018-12-20T14:22:03 CST" finished-at="2018-12-20T14:22:09 CST">
     <groups>
     </groups>
-    <test name="Api_AutoFramwork" duration-ms="5450" started-at="2018-12-20T13:57:33 CST" finished-at="2018-12-20T13:57:38 CST">
+    <test name="Api_AutoFramwork" duration-ms="5731" started-at="2018-12-20T14:22:03 CST" finished-at="2018-12-20T14:22:09 CST">
       <class name="com.qa.tests.testCase1">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.testCase1@20e2cbe0]" name="setUp" is-config="true" duration-ms="0" started-at="2018-12-20T13:57:37 CST" finished-at="2018-12-20T13:57:37 CST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.testCase1@20e2cbe0]" name="setUp" is-config="true" duration-ms="1" started-at="2018-12-20T14:22:08 CST" finished-at="2018-12-20T14:22:08 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.testCase1@20e2cbe0]" name="login" duration-ms="631" started-at="2018-12-20T13:57:37 CST" data-provider="postData" finished-at="2018-12-20T13:57:38 CST">
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.testCase1@20e2cbe0]" name="login" duration-ms="767" started-at="2018-12-20T14:22:08 CST" data-provider="postData" finished-at="2018-12-20T14:22:09 CST">
           <params>
             <param index="0">
               <value>
@@ -80,17 +80,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="endTest()[pri:0, instance:com.qa.tests.testCase1@20e2cbe0]" name="endTest" is-config="true" duration-ms="0" started-at="2018-12-20T13:57:38 CST" finished-at="2018-12-20T13:57:38 CST">
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.qa.tests.testCase1@20e2cbe0]" name="endTest" is-config="true" duration-ms="0" started-at="2018-12-20T14:22:09 CST" finished-at="2018-12-20T14:22:09 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTest -->
       </class> <!-- com.qa.tests.testCase1 -->
       <class name="com.qa.tests.DeleteApiTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.DeleteApiTest@2a5ca609]" name="setUp" is-config="true" duration-ms="0" started-at="2018-12-20T13:57:36 CST" finished-at="2018-12-20T13:57:36 CST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.DeleteApiTest@2a5ca609]" name="setUp" is-config="true" duration-ms="0" started-at="2018-12-20T14:22:07 CST" finished-at="2018-12-20T14:22:07 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="deleteApiTest()[pri:0, instance:com.qa.tests.DeleteApiTest@2a5ca609]" name="deleteApiTest" duration-ms="584" started-at="2018-12-20T13:57:36 CST" finished-at="2018-12-20T13:57:37 CST">
+        <test-method status="PASS" signature="deleteApiTest()[pri:0, instance:com.qa.tests.DeleteApiTest@2a5ca609]" name="deleteApiTest" duration-ms="851" started-at="2018-12-20T14:22:07 CST" finished-at="2018-12-20T14:22:08 CST">
           <reporter-output>
             <line>
               <![CDATA[接口地址：https://reqres.in/api/users/2]]>
@@ -102,11 +102,11 @@
         </test-method> <!-- deleteApiTest -->
       </class> <!-- com.qa.tests.DeleteApiTest -->
       <class name="com.qa.tests.PostApiTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.PostApiTest@1753acfe]" name="setUp" is-config="true" duration-ms="10" started-at="2018-12-20T13:57:33 CST" finished-at="2018-12-20T13:57:33 CST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.PostApiTest@1753acfe]" name="setUp" is-config="true" duration-ms="8" started-at="2018-12-20T14:22:03 CST" finished-at="2018-12-20T14:22:03 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="postApiTest()[pri:0, instance:com.qa.tests.PostApiTest@1753acfe]" name="postApiTest" duration-ms="1612" started-at="2018-12-20T13:57:33 CST" finished-at="2018-12-20T13:57:34 CST">
+        <test-method status="PASS" signature="postApiTest()[pri:0, instance:com.qa.tests.PostApiTest@1753acfe]" name="postApiTest" duration-ms="1318" started-at="2018-12-20T14:22:03 CST" finished-at="2018-12-20T14:22:05 CST">
           <reporter-output>
             <line>
               <![CDATA[接口地址：https://reqres.in/api/users]]>
@@ -118,17 +118,17 @@
               <![CDATA[状态码：201]]>
             </line>
             <line>
-              <![CDATA[接口响应：{"job":"tester","name":"Anthony","id":"916","createdAt":"2018-12-20T06:00:56.362Z"}]]>
+              <![CDATA[接口响应：{"job":"tester","name":"Anthony","id":"371","createdAt":"2018-12-20T06:25:26.624Z"}]]>
             </line>
           </reporter-output>
         </test-method> <!-- postApiTest -->
       </class> <!-- com.qa.tests.PostApiTest -->
       <class name="com.qa.tests.PutApiTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.PutApiTest@2a2d45ba]" name="setUp" is-config="true" duration-ms="1" started-at="2018-12-20T13:57:36 CST" finished-at="2018-12-20T13:57:36 CST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.PutApiTest@2a2d45ba]" name="setUp" is-config="true" duration-ms="0" started-at="2018-12-20T14:22:06 CST" finished-at="2018-12-20T14:22:06 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="putApiTest()[pri:0, instance:com.qa.tests.PutApiTest@2a2d45ba]" name="putApiTest" duration-ms="717" started-at="2018-12-20T13:57:36 CST" finished-at="2018-12-20T13:57:36 CST">
+        <test-method status="PASS" signature="putApiTest()[pri:0, instance:com.qa.tests.PutApiTest@2a2d45ba]" name="putApiTest" duration-ms="1248" started-at="2018-12-20T14:22:06 CST" finished-at="2018-12-20T14:22:07 CST">
           <reporter-output>
             <line>
               <![CDATA[接口地址：https://reqres.in/api/users/2]]>
@@ -140,17 +140,13 @@
               <![CDATA[状态码：200]]>
             </line>
             <line>
-              <![CDATA[接口响应：{"job":"automation tester","name":"Anthony","updatedAt":"2018-12-20T06:00:58.637Z"}]]>
+              <![CDATA[接口响应：{"job":"automation tester","name":"Anthony","updatedAt":"2018-12-20T06:25:29.084Z"}]]>
             </line>
           </reporter-output>
         </test-method> <!-- putApiTest -->
       </class> <!-- com.qa.tests.PutApiTest -->
       <class name="com.qa.tests.GetApiTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.GetApiTest@7c16905e]" name="setUp" is-config="true" duration-ms="1" started-at="2018-12-20T13:57:34 CST" finished-at="2018-12-20T13:57:34 CST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="getApiTest()[pri:0, instance:com.qa.tests.GetApiTest@7c16905e]" name="getApiTest" duration-ms="770" started-at="2018-12-20T13:57:34 CST" finished-at="2018-12-20T13:57:35 CST">
+        <test-method status="PASS" signature="getApiTest()[pri:0, instance:com.qa.tests.GetApiTest@7c16905e]" name="getApiTest" duration-ms="589" started-at="2018-12-20T14:22:05 CST" finished-at="2018-12-20T14:22:05 CST">
           <reporter-output>
             <line>
               <![CDATA[接口地址：https://reqres.in/api/users?page=2]]>
@@ -163,7 +159,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- getApiTest -->
-        <test-method status="PASS" signature="getApiTest02()[pri:0, instance:com.qa.tests.GetApiTest@7c16905e]" name="getApiTest02" duration-ms="725" started-at="2018-12-20T13:57:35 CST" finished-at="2018-12-20T13:57:36 CST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.GetApiTest@7c16905e]" name="setUp" is-config="true" duration-ms="0" started-at="2018-12-20T14:22:05 CST" finished-at="2018-12-20T14:22:05 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getApiTest02()[pri:0, instance:com.qa.tests.GetApiTest@7c16905e]" name="getApiTest02" duration-ms="583" started-at="2018-12-20T14:22:05 CST" finished-at="2018-12-20T14:22:06 CST">
           <reporter-output>
             <line>
               <![CDATA[接口地址：https://reqres.in/api/users?page=2]]>

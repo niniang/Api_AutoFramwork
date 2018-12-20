@@ -2,10 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dac2a4b6-afff-45ed-84a4-9ed2f9eb1eb9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qa/tests/DeleteApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qa/tests/DeleteApiTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Api_AutoFramwork-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/Api_AutoFramwork-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/base/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qa/base/TestBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/parameters/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qa/parameters/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/parameters/postParameters.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qa/parameters/postParameters.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/report/ExtentTestNGReporterListener$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qa/report/ExtentTestNGReporterListener$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/report/ExtentTestNGReporterListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qa/report/ExtentTestNGReporterListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/restclient/RestClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qa/restclient/RestClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/tests/DeleteApiTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qa/tests/DeleteApiTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/tests/GetApiTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qa/tests/GetApiTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/tests/PostApiTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qa/tests/PostApiTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/tests/PutApiTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qa/tests/PutApiTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/tests/testCase1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qa/tests/testCase1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/util/TestUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qa/util/TestUtil.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Default Suite/Api_AutoFramwork.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Default Suite/Api_AutoFramwork.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Default Suite/Api_AutoFramwork.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Default Suite/Api_AutoFramwork.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.qa.tests.DeleteApiTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.qa.tests.DeleteApiTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.qa.tests.GetApiTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.qa.tests.GetApiTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.qa.tests.PostApiTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.qa.tests.PostApiTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.qa.tests.PutApiTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.qa.tests.PutApiTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.qa.tests.testCase1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.qa.tests.testCase1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Default Suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Default Suite/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Default Suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Default Suite/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Default Suite/reporter-output.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Default Suite/reporter-output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire/surefire4202168408057889647tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire/surefire6218706445885236307tmp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -75,7 +105,7 @@
           <entry key="html" value="3" />
           <entry key="java" value="11" />
           <entry key="log" value="1" />
-          <entry key="properties" value="8" />
+          <entry key="properties" value="11" />
           <entry key="xml" value="2" />
         </counts>
       </usages-collector>
@@ -84,20 +114,20 @@
           <entry key="HTML" value="3" />
           <entry key="JAVA" value="11" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Properties" value="8" />
+          <entry key="Properties" value="11" />
           <entry key="XML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="886" />
+          <entry key="java" value="892" />
           <entry key="properties" value="87" />
           <entry key="xml" value="95" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="886" />
+          <entry key="JAVA" value="892" />
           <entry key="Properties" value="87" />
           <entry key="XML" value="95" />
         </counts>
@@ -109,8 +139,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-16">
-              <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+            <state relative-caret-position="506">
+              <caret line="23" column="20" lean-forward="true" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/config/log4j.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="15" column="56" lean-forward="true" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/target/classes/log4j.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="15" column="95" lean-forward="true" selection-start-line="15" selection-start-column="95" selection-end-line="15" selection-end-column="95" />
             </state>
           </provider>
         </entry>
@@ -118,17 +166,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TestNg.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" column="51" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
+            <state relative-caret-position="220">
+              <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/tests/DeleteApiTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="38" selection-start-line="38" selection-end-line="38" />
+            <state relative-caret-position="365">
+              <caret line="36" column="41" lean-forward="true" selection-start-line="36" selection-start-column="41" selection-end-line="36" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -213,8 +261,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/qa/tests/PostApiTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qa/tests/GetApiTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qa/tests/PutApiTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qa/tests/DeleteApiTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qa/tests/DeleteApiTest.java" />
       </list>
     </option>
   </component>
@@ -252,6 +300,35 @@
               <item name="Api_AutoFramwork" type="b2602c69:ProjectViewProjectNode" />
               <item name="Api_AutoFramwork" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Api_AutoFramwork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Api_AutoFramwork" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Api_AutoFramwork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Api_AutoFramwork" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Api_AutoFramwork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Api_AutoFramwork" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Api_AutoFramwork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Api_AutoFramwork" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Api_AutoFramwork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Api_AutoFramwork" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -260,7 +337,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545285521698" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545286892619" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
@@ -272,8 +349,8 @@
       <recent name="com.qa.parameters" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\IdeaProjects\Api_AutoFramwork\src\main\java\com\qa\config" />
       <recent name="E:\IdeaProjects\Api_AutoFramwork\target\classes" />
+      <recent name="E:\IdeaProjects\Api_AutoFramwork\src\main\java\com\qa\config" />
       <recent name="E:\IdeaProjects\Api_AutoFramwork\target\classes\com\qa\data" />
       <recent name="E:\IdeaProjects\Api_AutoFramwork\src\main" />
       <recent name="E:\IdeaProjects\Api_AutoFramwork\src" />
@@ -407,15 +484,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="E__IdeaProjects_Api_AutoFramwork_TestNg_xml - 2018.12.19 at 15h 18m 40s.xml">
-      <configuration name="E:/IdeaProjects/Api_AutoFramwork/TestNg.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="E__IdeaProjects_Api_AutoFramwork_TestNg_xml - 2018.12.19 at 15h 22m 27s.xml">
-      <configuration name="E:/IdeaProjects/Api_AutoFramwork/TestNg.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="E__IdeaProjects_Api_AutoFramwork_TestNg_xml - 2018.12.19 at 15h 24m 28s.xml">
-      <configuration name="E:/IdeaProjects/Api_AutoFramwork/TestNg.xml" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="E__IdeaProjects_Api_AutoFramwork_TestNg_xml - 2018.12.19 at 15h 34m 04s.xml">
       <configuration name="E:/IdeaProjects/Api_AutoFramwork/TestNg.xml" configurationId="TestNG" />
     </history-entry>
@@ -437,6 +505,15 @@
     <history-entry file="E__IdeaProjects_Api_AutoFramwork_TestNg_xml - 2018.12.19 at 16h 05m 00s.xml">
       <configuration name="E:/IdeaProjects/Api_AutoFramwork/TestNg.xml" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="E__IdeaProjects_Api_AutoFramwork_TestNg_xml - 2018.12.20 at 13h 58m 53s.xml">
+      <configuration name="E:/IdeaProjects/Api_AutoFramwork/TestNg.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="E__IdeaProjects_Api_AutoFramwork_TestNg_xml - 2018.12.20 at 14h 07m 52s.xml">
+      <configuration name="E:/IdeaProjects/Api_AutoFramwork/TestNg.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="E__IdeaProjects_Api_AutoFramwork_TestNg_xml - 2018.12.20 at 14h 08m 33s.xml">
+      <configuration name="E:/IdeaProjects/Api_AutoFramwork/TestNg.xml" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -449,7 +526,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25906184" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -460,15 +536,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32899022" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32899022" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32899022" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32899022" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.329718" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32899022" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -546,13 +622,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/log4j.properties" />
     <entry file="file://$PROJECT_DIR$/log-out/Test Results - E__IdeaProjects_Api_AutoFramwork_Demo_temp-testng-customsuite_xml.html" />
     <entry file="file://$PROJECT_DIR$/log-out/Test Results - E__IdeaProjects_Api_AutoFramwork_temp-testng-customsuite_xml.html" />
-    <entry file="file://$PROJECT_DIR$/target/classes/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="95" lean-forward="true" selection-start-line="15" selection-start-column="95" selection-end-line="15" selection-end-column="95" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/tests/testCase1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="484">
@@ -612,13 +681,6 @@
     <entry file="file://$PROJECT_DIR$/log/apilog.log">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/config/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="40" lean-forward="true" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/report/ExtentTestNGReporterListener.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="788">
@@ -656,27 +718,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestNg.xml">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="51" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
+        <state relative-caret-position="506">
+          <caret line="23" column="20" lean-forward="true" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/TestNg.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-16">
-          <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+        <state relative-caret-position="220">
+          <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/tests/DeleteApiTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        <state relative-caret-position="365">
+          <caret line="36" column="41" lean-forward="true" selection-start-line="36" selection-start-column="41" selection-end-line="36" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/config/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="56" lean-forward="true" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="95" lean-forward="true" selection-start-line="15" selection-start-column="95" selection-end-line="15" selection-end-column="95" />
         </state>
       </provider>
     </entry>

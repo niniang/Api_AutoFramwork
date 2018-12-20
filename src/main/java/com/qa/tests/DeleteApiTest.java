@@ -34,7 +34,7 @@ public class DeleteApiTest extends TestBase{
         Log.info("----------开始执行用例deleteApiTest...----------");
         restClient = new RestClient();
 
-        Reporter.log("接口地址：" + url);
+        Reporter.log("接口地址：" + url,true);
         closeableHttpResponse = restClient.delete(url);
 
         Log.info("测试响应状态码是否是204");
