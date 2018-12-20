@@ -1,0 +1,155 @@
+<html>
+<head>
+<title>TestNG:  Api_AutoFramwork</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Api_AutoFramwork</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>6/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Dec 20 13:57:33 CST 2018</td>
+</tr>
+<tr><td>Total time:</td><td>5 seconds (5450 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.qa.tests.DeleteApiTest.deleteApiTest()'><b>deleteApiTest</b><br>Test class: com.qa.tests.DeleteApiTest<br/>
+<a href="#Output-252277567" onClick='toggleBox("Output-252277567", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-252277567" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-252277567">
+接口地址：https://reqres.in/api/users/2<br/>
+状态码：204<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.qa.tests.DeleteApiTest@2a5ca609</td></tr>
+<tr>
+<td title='com.qa.tests.GetApiTest.getApiTest()'><b>getApiTest</b><br>Test class: com.qa.tests.GetApiTest<br/>
+<a href="#Output-1212116343" onClick='toggleBox("Output-1212116343", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1212116343" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1212116343">
+接口地址：https://reqres.in/api/users?page=2<br/>
+状态码：200<br/>
+接口响应：{"page":2,"per_page":3,"total":12,"total_pages":4,"data":[{"id":4,"first_name":"Eve","last_name":"Holt","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/marcoramires/128.jpg"},{"id":5,"first_name":"Charles","last_name":"Morris","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/stephenmoon/128.jpg"},{"id":6,"first_name":"Tracey","last_name":"Ramos","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/bigmancho/128.jpg"}]}<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.qa.tests.GetApiTest@7c16905e</td></tr>
+<tr>
+<td title='com.qa.tests.GetApiTest.getApiTest02()'><b>getApiTest02</b><br>Test class: com.qa.tests.GetApiTest<br/>
+<a href="#Output-671471369" onClick='toggleBox("Output-671471369", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-671471369" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-671471369">
+接口地址：https://reqres.in/api/users?page=2<br/>
+状态码：200<br/>
+接口响应：{"page":2,"per_page":3,"total":12,"total_pages":4,"data":[{"id":4,"first_name":"Eve","last_name":"Holt","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/marcoramires/128.jpg"},{"id":5,"first_name":"Charles","last_name":"Morris","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/stephenmoon/128.jpg"},{"id":6,"first_name":"Tracey","last_name":"Ramos","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/bigmancho/128.jpg"}]}<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.qa.tests.GetApiTest@7c16905e</td></tr>
+<tr>
+<td title='com.qa.tests.testCase1.login()'><b>login</b><br>Test class: com.qa.tests.testCase1<br>Parameters: /api/login, peter@klaven, cityslicka</td>
+<td></td>
+<td>0</td>
+<td>com.qa.tests.testCase1@20e2cbe0</td></tr>
+<tr>
+<td title='com.qa.tests.PostApiTest.postApiTest()'><b>postApiTest</b><br>Test class: com.qa.tests.PostApiTest<br/>
+<a href="#Output-1583159071" onClick='toggleBox("Output-1583159071", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1583159071" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1583159071">
+接口地址：https://reqres.in/api/users<br/>
+JSON：{"job":"tester","name":"Anthony"}<br/>
+状态码：201<br/>
+接口响应：{"job":"tester","name":"Anthony","id":"916","createdAt":"2018-12-20T06:00:56.362Z"}<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.qa.tests.PostApiTest@1753acfe</td></tr>
+<tr>
+<td title='com.qa.tests.PutApiTest.putApiTest()'><b>putApiTest</b><br>Test class: com.qa.tests.PutApiTest<br/>
+<a href="#Output-2032079962" onClick='toggleBox("Output-2032079962", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2032079962" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2032079962">
+接口地址：https://reqres.in/api/users/2<br/>
+JSON：{"job":"automation tester","name":"Anthony"}<br/>
+状态码：200<br/>
+接口响应：{"job":"automation tester","name":"Anthony","updatedAt":"2018-12-20T06:00:58.637Z"}<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.qa.tests.PutApiTest@2a2d45ba</td></tr>
+</table><p>
+</body>
+</html>
