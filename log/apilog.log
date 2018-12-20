@@ -1,44 +1,44 @@
-2018-12-20 16:31:05 052 INFO  PostApiTest:43 - ----------开始执行用例getApiTest...----------
-2018-12-20 16:31:05 057 INFO  PostApiTest:46 - 导入请求头
-2018-12-20 16:31:05 488 INFO  RestClient:78 - 开始发送post请求...
-2018-12-20 16:31:06 256 INFO  RestClient:80 - 发送请求成功！开始得到响应对象。
-2018-12-20 16:31:06 257 INFO  PostApiTest:60 - 测试响应状态码是否是201
-2018-12-20 16:31:06 307 INFO  PostApiTest:69 - 执行JSON解析，解析的内容是 Anthony
-2018-12-20 16:31:06 307 INFO  PostApiTest:71 - 执行JSON解析，解析的内容是 tester
-2018-12-20 16:31:06 307 INFO  PostApiTest:72 - 接口内容响应断言
-2018-12-20 16:31:06 308 INFO  PostApiTest:75 - ----------用例执行结束...----------
-2018-12-20 16:31:06 314 INFO  GetApiTest:37 - ----------开始执行用例getApiTest...----------
-2018-12-20 16:31:06 321 INFO  RestClient:29 - 开始发送get请求...
-2018-12-20 16:31:06 952 INFO  RestClient:31 - 发送请求成功！开始得到响应对象。
-2018-12-20 16:31:06 953 INFO  GetApiTest:42 - 测试响应状态码是否是200
-2018-12-20 16:31:06 955 INFO  GetApiTest:51 - 执行JSON解析，解析的内容是 Eve
-2018-12-20 16:31:06 955 INFO  GetApiTest:52 - 接口内容响应断言
-2018-12-20 16:31:06 955 INFO  GetApiTest:54 - ----------用例执行结束...----------
-2018-12-20 16:31:06 957 INFO  GetApiTest:58 - ----------开始执行用例getApiTest02...----------
-2018-12-20 16:31:06 957 INFO  GetApiTest:60 - 导入请求头
-2018-12-20 16:31:06 959 INFO  RestClient:52 - 开始发送get请求...
-2018-12-20 16:31:07 631 INFO  RestClient:54 - 发送请求成功！开始得到响应对象。
-2018-12-20 16:31:07 631 INFO  GetApiTest:66 - 测试响应状态码是否是200
-2018-12-20 16:31:07 632 INFO  GetApiTest:74 - 执行JSON解析，解析的内容是 Eve
-2018-12-20 16:31:07 632 INFO  GetApiTest:75 - 接口内容响应断言
-2018-12-20 16:31:07 632 INFO  GetApiTest:77 - ----------用例执行结束...----------
-2018-12-20 16:31:07 633 INFO  PutApiTest:42 - ----------开始执行用例putApiTest...----------
-2018-12-20 16:31:07 634 INFO  PutApiTest:45 - 导入请求头
-2018-12-20 16:31:07 636 INFO  RestClient:104 - 开始发送put请求...
-2018-12-20 16:31:08 272 INFO  RestClient:106 - 发送请求成功！开始得到响应对象。
-2018-12-20 16:31:08 272 INFO  PutApiTest:56 - 测试响应状态码是否是200
-2018-12-20 16:31:08 273 INFO  PutApiTest:64 - 执行JSON解析，解析的内容是 automation tester
-2018-12-20 16:31:08 273 INFO  PutApiTest:65 - 接口内容响应断言
-2018-12-20 16:31:08 273 INFO  PutApiTest:67 - ----------用例执行结束...----------
-2018-12-20 16:31:08 274 INFO  DeleteApiTest:34 - ----------开始执行用例deleteApiTest...----------
-2018-12-20 16:31:08 277 INFO  RestClient:123 - 开始发送delete请求...
-2018-12-20 16:31:08 887 INFO  RestClient:125 - 发送请求成功！开始得到响应对象。
-2018-12-20 16:31:08 887 INFO  DeleteApiTest:40 - 测试响应状态码是否是204
-2018-12-20 16:31:08 887 INFO  DeleteApiTest:49 - ----------用例执行结束...----------
-2018-12-20 16:31:09 256 INFO  PostApiTest:52 - ----------开始执行用例testCase1...----------
-2018-12-20 16:31:09 273 INFO  RestClient:78 - 开始发送post请求...
-2018-12-20 16:31:09 862 INFO  RestClient:80 - 发送请求成功！开始得到响应对象。
-2018-12-20 16:31:09 862 INFO  PostApiTest:60 - 测试响应状态码是否是200
-2018-12-20 16:31:09 862 INFO  PostApiTest:61 - 接口内容响应断言
-2018-12-20 16:31:09 863 INFO  PostApiTest:67 - token = QpwL5tke4Pnpja7X
-2018-12-20 16:31:09 864 INFO  PostApiTest:72 - ----------用例执行结束...----------
+2018-12-20 17:25:29 354 INFO  PostApiTest:43 - ----------开始执行用例getApiTest...----------
+2018-12-20 17:25:29 359 INFO  PostApiTest:46 - 导入请求头
+2018-12-20 17:25:29 792 INFO  RestClient:78 - 开始发送post请求...
+2018-12-20 17:25:30 522 INFO  RestClient:80 - 发送请求成功！开始得到响应对象。
+2018-12-20 17:25:30 522 INFO  PostApiTest:60 - 测试响应状态码是否是201
+2018-12-20 17:25:30 572 INFO  PostApiTest:69 - 执行JSON解析，解析的内容是 Anthony
+2018-12-20 17:25:30 572 INFO  PostApiTest:71 - 执行JSON解析，解析的内容是 tester
+2018-12-20 17:25:30 572 INFO  PostApiTest:72 - 接口内容响应断言
+2018-12-20 17:25:30 573 INFO  PostApiTest:75 - ----------用例执行结束...----------
+2018-12-20 17:25:30 579 INFO  GetApiTest:37 - ----------开始执行用例getApiTest...----------
+2018-12-20 17:25:30 582 INFO  RestClient:29 - 开始发送get请求...
+2018-12-20 17:25:31 162 INFO  RestClient:31 - 发送请求成功！开始得到响应对象。
+2018-12-20 17:25:31 162 INFO  GetApiTest:42 - 测试响应状态码是否是200
+2018-12-20 17:25:31 164 INFO  GetApiTest:51 - 执行JSON解析，解析的内容是 Eve
+2018-12-20 17:25:31 164 INFO  GetApiTest:52 - 接口内容响应断言
+2018-12-20 17:25:31 164 INFO  GetApiTest:54 - ----------用例执行结束...----------
+2018-12-20 17:25:31 165 INFO  GetApiTest:58 - ----------开始执行用例getApiTest02...----------
+2018-12-20 17:25:31 166 INFO  GetApiTest:60 - 导入请求头
+2018-12-20 17:25:31 167 INFO  RestClient:52 - 开始发送get请求...
+2018-12-20 17:25:31 739 INFO  RestClient:54 - 发送请求成功！开始得到响应对象。
+2018-12-20 17:25:31 739 INFO  GetApiTest:66 - 测试响应状态码是否是200
+2018-12-20 17:25:31 740 INFO  GetApiTest:74 - 执行JSON解析，解析的内容是 Eve
+2018-12-20 17:25:31 740 INFO  GetApiTest:75 - 接口内容响应断言
+2018-12-20 17:25:31 740 INFO  GetApiTest:77 - ----------用例执行结束...----------
+2018-12-20 17:25:31 741 INFO  PutApiTest:42 - ----------开始执行用例putApiTest...----------
+2018-12-20 17:25:31 741 INFO  PutApiTest:45 - 导入请求头
+2018-12-20 17:25:31 747 INFO  RestClient:104 - 开始发送put请求...
+2018-12-20 17:25:32 322 INFO  RestClient:106 - 发送请求成功！开始得到响应对象。
+2018-12-20 17:25:32 322 INFO  PutApiTest:56 - 测试响应状态码是否是200
+2018-12-20 17:25:32 322 INFO  PutApiTest:64 - 执行JSON解析，解析的内容是 automation tester
+2018-12-20 17:25:32 323 INFO  PutApiTest:65 - 接口内容响应断言
+2018-12-20 17:25:32 323 INFO  PutApiTest:67 - ----------用例执行结束...----------
+2018-12-20 17:25:32 324 INFO  DeleteApiTest:34 - ----------开始执行用例deleteApiTest...----------
+2018-12-20 17:25:32 326 INFO  RestClient:123 - 开始发送delete请求...
+2018-12-20 17:25:32 897 INFO  RestClient:125 - 发送请求成功！开始得到响应对象。
+2018-12-20 17:25:32 897 INFO  DeleteApiTest:40 - 测试响应状态码是否是204
+2018-12-20 17:25:32 897 INFO  DeleteApiTest:49 - ----------用例执行结束...----------
+2018-12-20 17:25:33 298 INFO  PostApiTest:52 - ----------开始执行用例testCase1...----------
+2018-12-20 17:25:33 316 INFO  RestClient:78 - 开始发送post请求...
+2018-12-20 17:25:33 998 INFO  RestClient:80 - 发送请求成功！开始得到响应对象。
+2018-12-20 17:25:33 998 INFO  PostApiTest:60 - 测试响应状态码是否是200
+2018-12-20 17:25:33 999 INFO  PostApiTest:61 - 接口内容响应断言
+2018-12-20 17:25:33 999 INFO  PostApiTest:67 - token = QpwL5tke4Pnpja7X
+2018-12-20 17:25:34 000 INFO  PostApiTest:72 - ----------用例执行结束...----------

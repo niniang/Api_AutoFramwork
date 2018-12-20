@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Api_AutoFramwork"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="1.171">
+  <properties />
+  
+  
+            <testcase name="getApiTest02" time="0.590" classname="com.qa.tests.GetApiTest" />
+                <testcase name="getApiTest" time="0.581" classname="com.qa.tests.GetApiTest" />
+      
+</testsuite>
