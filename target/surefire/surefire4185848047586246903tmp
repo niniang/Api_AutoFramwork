@@ -1,11 +1,14 @@
 #surefire
-#Thu Dec 20 14:58:15 CST 2018
+#Thu Dec 20 15:28:06 CST 2018
 enableAssertions=true
 testSuiteDefinitionTestSourceDirectory=E\:\\IdeaProjects\\Api_AutoFramwork\\src\\test\\java
 surefireClassPathUrl.3=E\:\\JenkinsHome\\workspace\\Api_AutoFramwork\\.repository\\org\\apache\\maven\\surefire\\surefire-api\\2.7.1\\surefire-api-2.7.1.jar
 surefireClassPathUrl.2=E\:\\JenkinsHome\\workspace\\Api_AutoFramwork\\.repository\\org\\codehaus\\plexus\\plexus-utils\\1.0.4\\plexus-utils-1.0.4.jar
+classPathUrl.32=E\:\\JenkinsHome\\workspace\\Api_AutoFramwork\\.repository\\org\\apache\\logging\\log4j\\log4j-core\\2.8.2\\log4j-core-2.8.2.jar
 surefireClassPathUrl.1=E\:\\JenkinsHome\\workspace\\Api_AutoFramwork\\.repository\\org\\apache\\maven\\maven-artifact\\2.0\\maven-artifact-2.0.jar
+classPathUrl.31=E\:\\JenkinsHome\\workspace\\Api_AutoFramwork\\.repository\\org\\apache\\logging\\log4j\\log4j-api\\2.8.2\\log4j-api-2.8.2.jar
 surefireClassPathUrl.0=E\:\\JenkinsHome\\workspace\\Api_AutoFramwork\\.repository\\org\\apache\\maven\\surefire\\surefire-testng\\2.7.1\\surefire-testng-2.7.1.jar
+classPathUrl.30=E\:\\JenkinsHome\\workspace\\Api_AutoFramwork\\.repository\\org\\apache\\logging\\log4j\\log4j-1.2-api\\2.8.2\\log4j-1.2-api-2.8.2.jar
 classPathUrl.9=E\:\\JenkinsHome\\workspace\\Api_AutoFramwork\\.repository\\org\\slf4j\\slf4j-log4j12\\1.7.2\\slf4j-log4j12-1.7.2.jar
 classPathUrl.8=E\:\\JenkinsHome\\workspace\\Api_AutoFramwork\\.repository\\com\\beust\\jcommander\\1.72\\jcommander-1.72.jar
 classPathUrl.7=E\:\\JenkinsHome\\workspace\\Api_AutoFramwork\\.repository\\org\\testng\\testng\\7.0.0-beta1\\testng-7.0.0-beta1.jar
