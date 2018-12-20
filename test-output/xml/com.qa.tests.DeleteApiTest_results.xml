@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="0.581">
+           time="0.576">
   <properties />
   
   
-            <testcase name="deleteApiTest" time="0.581" classname="com.qa.tests.DeleteApiTest" />
+            <testcase name="deleteApiTest" time="0.576" classname="com.qa.tests.DeleteApiTest" />
       
 </testsuite>

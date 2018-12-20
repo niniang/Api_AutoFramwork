@@ -4,11 +4,11 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="1.171">
+           time="1.191">
   <properties />
   
   
-            <testcase name="getApiTest02" time="0.590" classname="com.qa.tests.GetApiTest" />
-                <testcase name="getApiTest" time="0.581" classname="com.qa.tests.GetApiTest" />
+            <testcase name="getApiTest02" time="0.587" classname="com.qa.tests.GetApiTest" />
+                <testcase name="getApiTest" time="0.604" classname="com.qa.tests.GetApiTest" />
       
 </testsuite>
