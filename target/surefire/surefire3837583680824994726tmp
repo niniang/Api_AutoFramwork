@@ -1,6 +1,0 @@
-#surefire
-#Thu Dec 20 17:25:28 CST 2018
-user.dir=E\:\\IdeaProjects\\Api_AutoFramwork
-maven.repo.local=E\:\\JenkinsHome\\workspace\\Api_AutoFramwork\\.repository
-localRepository=E\:\\JenkinsHome\\workspace\\Api_AutoFramwork\\.repository
-basedir=E\:\\IdeaProjects\\Api_AutoFramwork
