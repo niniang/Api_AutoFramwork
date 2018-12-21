@@ -12,7 +12,6 @@
   </test> <!-- Api_AutoFramwork -->
 
   <listeners>
-    <listener class-name="org.uncommons.reportng.HTMLReporter" />
-    <listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+      <listener class-name="com.qa.report.ExtentTestNGReporterListener"/>
   </listeners>
 </suite> <!-- Default Suite -->
