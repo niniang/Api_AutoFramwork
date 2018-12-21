@@ -12,6 +12,5 @@
   </test> <!-- Api_AutoFramwork -->
 
   <listeners>
-      <listener class-name="com.qa.report.ExtentTestNGReporterListener"/>
   </listeners>
 </suite> <!-- Default Suite -->
