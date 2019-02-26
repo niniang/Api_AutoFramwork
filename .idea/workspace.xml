@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dac2a4b6-afff-45ed-84a4-9ed2f9eb1eb9" name="Default Changelist" comment="jdbc">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qa/tests/JDBCTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/apilog.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/apilog.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qa/statusPage/standingLineList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qa/statusPage/standingLineList.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -64,15 +64,15 @@
     <session id="4545941">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.17" value="2" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.open.time.7" value="2" />
+          <entry key="project.open.time.7" value="3" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="9" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -87,7 +87,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="3" />
-          <entry key="JAVA" value="17" />
+          <entry key="JAVA" value="19" />
           <entry key="PLAIN_TEXT" value="8" />
           <entry key="Properties" value="13" />
           <entry key="XML" value="3" />
@@ -102,7 +102,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2003" />
+          <entry key="JAVA" value="2447" />
           <entry key="PLAIN_TEXT" value="4" />
           <entry key="Properties" value="153" />
           <entry key="XML" value="152" />
@@ -126,15 +126,6 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/tests/JDBCTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TestNg.xml">
           <provider selected="true" editor-type-id="text-editor">
@@ -144,11 +135,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/statusPage/standingLineList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="33" column="9" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+            <state relative-caret-position="594">
+              <caret line="69" column="76" selection-start-line="69" selection-start-column="76" selection-end-line="69" selection-end-column="76" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -159,11 +150,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/tests/GetApiTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
+            <state relative-caret-position="-95">
               <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/restclient/RestClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1948">
+              <caret line="115" column="39" selection-start-line="115" selection-start-column="39" selection-end-line="115" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -185,6 +185,15 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="171">
               <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/tests/JDBCTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="22" column="52" lean-forward="true" selection-start-line="22" selection-start-column="52" selection-end-line="22" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -240,9 +249,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/qa/tests/DeleteApiTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qa/config/config.properties" />
         <option value="$PROJECT_DIR$/elec.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qa/statusPage/standingLineList.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/qa/tests/JDBCTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qa/statusPage/standingLineList.java" />
       </list>
     </option>
   </component>
@@ -276,7 +285,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="612" />
     <option name="y" value="30" />
     <option name="width" value="1296" />
@@ -288,6 +297,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -328,18 +338,31 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="qa" type="462c0819:PsiDirectoryNode" />
+              <item name="restclient" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Api_AutoFramwork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Api_AutoFramwork" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="qa" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Api_AutoFramwork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Api_AutoFramwork" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551168349601" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551173577480" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -370,7 +393,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.JDBCTest">
+  <component name="RunManager" selected="TestNG.standingLineList">
     <configuration name="JDBCTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.qa.tests.JDBCTest" />
       <module name="Api_AutoFramwork" />
@@ -380,22 +403,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DeleteApiTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Api_AutoFramwork" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.qa.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.qa.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.qa.tests.DeleteApiTest" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -426,6 +433,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="standingLineList" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Api_AutoFramwork" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qa.statusPage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.qa.statusPage" />
+      <option name="MAIN_CLASS_NAME" value="com.qa.statusPage.standingLineList" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="standingLineList.standingLineList" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Api_AutoFramwork" />
       <extension name="coverage">
@@ -446,18 +469,18 @@
     </configuration>
     <list>
       <item itemvalue="TestNG.E:/IdeaProjects/Api_AutoFramwork/TestNg.xml" />
-      <item itemvalue="TestNG.DeleteApiTest" />
       <item itemvalue="TestNG.standingLineList.standingLineList" />
       <item itemvalue="TestNG.E:/IdeaProjects/Api_AutoFramwork/elec.xml" />
       <item itemvalue="Application.JDBCTest" />
+      <item itemvalue="TestNG.standingLineList" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.standingLineList" />
         <item itemvalue="Application.JDBCTest" />
         <item itemvalue="TestNG.E:/IdeaProjects/Api_AutoFramwork/elec.xml" />
         <item itemvalue="TestNG.standingLineList.standingLineList" />
         <item itemvalue="TestNG.E:/IdeaProjects/Api_AutoFramwork/TestNg.xml" />
-        <item itemvalue="TestNG.DeleteApiTest" />
       </list>
     </recent_temporary>
   </component>
@@ -472,38 +495,46 @@
       <option name="presentableId" value="Default" />
       <updated>1540864021554</updated>
     </task>
+    <task id="LOCAL-00001" summary="jdbc">
+      <created>1551168263591</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1551168263592</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="E__IdeaProjects_Api_AutoFramwork_TestNg_xml - 2018.12.20 at 15h 48m 15s.xml">
-      <configuration name="E:/IdeaProjects/Api_AutoFramwork/TestNg.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="E__IdeaProjects_Api_AutoFramwork_TestNg_xml - 2018.12.20 at 16h 11m 15s.xml">
-      <configuration name="E:/IdeaProjects/Api_AutoFramwork/TestNg.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="E__IdeaProjects_Api_AutoFramwork_TestNg_xml - 2018.12.20 at 16h 18m 37s.xml">
-      <configuration name="E:/IdeaProjects/Api_AutoFramwork/TestNg.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="E__IdeaProjects_Api_AutoFramwork_TestNg_xml - 2018.12.20 at 17h 06m 37s.xml">
-      <configuration name="E:/IdeaProjects/Api_AutoFramwork/TestNg.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="E__IdeaProjects_Api_AutoFramwork_TestNg_xml - 2018.12.20 at 17h 09m 12s.xml">
-      <configuration name="E:/IdeaProjects/Api_AutoFramwork/TestNg.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="DeleteApiTest - 2019.01.08 at 13h 57m 54s.xml">
-      <configuration name="DeleteApiTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="E__IdeaProjects_Api_AutoFramwork_TestNg_xml - 2019.01.08 at 13h 58m 08s.xml">
-      <configuration name="E:/IdeaProjects/Api_AutoFramwork/TestNg.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="E__IdeaProjects_Api_AutoFramwork_TestNg_xml - 2019.02.26 at 13h 53m 55s.xml">
-      <configuration name="E:/IdeaProjects/Api_AutoFramwork/TestNg.xml" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="standingLineList_standingLineList - 2019.02.26 at 14h 45m 19s.xml">
       <configuration name="standingLineList.standingLineList" configurationId="TestNG" />
     </history-entry>
     <history-entry file="E__IdeaProjects_Api_AutoFramwork_elec_xml - 2019.02.26 at 14h 45m 30s.xml">
       <configuration name="E:/IdeaProjects/Api_AutoFramwork/elec.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="standingLineList - 2019.02.26 at 16h 13m 59s.xml">
+      <configuration name="standingLineList" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="standingLineList - 2019.02.26 at 16h 17m 06s.xml">
+      <configuration name="standingLineList" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="standingLineList - 2019.02.26 at 16h 39m 05s.xml">
+      <configuration name="standingLineList" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="standingLineList - 2019.02.26 at 17h 25m 18s.xml">
+      <configuration name="standingLineList" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="standingLineList - 2019.02.26 at 17h 26m 30s.xml">
+      <configuration name="standingLineList" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="standingLineList - 2019.02.26 at 17h 27m 46s.xml">
+      <configuration name="standingLineList" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="standingLineList - 2019.02.26 at 17h 30m 49s.xml">
+      <configuration name="standingLineList" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="standingLineList - 2019.02.26 at 17h 32m 53s.xml">
+      <configuration name="standingLineList" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -516,10 +547,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="612" y="30" width="1296" height="1057" extended-state="0" />
+    <frame x="-8" y="22" width="1936" height="1066" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.3219616" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3219616" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -528,7 +559,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33188722" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32867885" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -536,7 +567,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.31561822" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3286334" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32760474" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -638,13 +669,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/restclient/RestClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="115" column="39" selection-start-line="115" selection-start-column="39" selection-end-line="115" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/util/SendEmail.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/report/ExtentTestNGReporterListener.java" />
     <entry file="file://$PROJECT_DIR$/target/classes/log4j.properties" />
@@ -688,6 +712,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_191/src.zip!/java/lang/Deprecated.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="43" column="1" lean-forward="true" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elec.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="461">
+          <caret line="117" column="21" selection-start-line="117" selection-start-column="21" selection-end-line="117" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestNg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/config/config.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -705,9 +757,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/restclient/RestClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1948">
+          <caret line="115" column="39" selection-start-line="115" selection-start-column="39" selection-end-line="115" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/tests/JDBCTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="22" column="52" lean-forward="true" selection-start-line="22" selection-start-column="52" selection-end-line="22" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/tests/GetApiTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
+        <state relative-caret-position="-95">
           <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -715,48 +781,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_191/src.zip!/java/lang/Deprecated.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="43" column="1" lean-forward="true" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/elec.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestNg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/statusPage/standingLineList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="33" column="9" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+        <state relative-caret-position="594">
+          <caret line="69" column="76" selection-start-line="69" selection-start-column="76" selection-end-line="69" selection-end-column="76" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="117" column="21" selection-start-line="117" selection-start-column="21" selection-end-line="117" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/tests/JDBCTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
         </state>
       </provider>
     </entry>
