@@ -47,7 +47,7 @@
                 <version>2.7.1</version>
                 <configuration>
                     <suiteXmlFiles>
-                        <suiteXmlFile>TestNg.xml</suiteXmlFile>
+                        <suiteXmlFile>elec.xml</suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>
             </plugin>

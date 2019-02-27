@@ -36,7 +36,7 @@ public class standingLineList extends TestBase {
     @BeforeClass
     public void setUp(){
         testBase = new TestBase();
-        host = prop.getProperty("HOST");
+        host = prop.getProperty("CLOUD_HOST");
         api = prop.getProperty("Standing_Line_List");
         url = host + api;
         db_url = prop.getProperty("DB_URL");
