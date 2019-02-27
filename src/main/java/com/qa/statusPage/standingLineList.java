@@ -15,6 +15,7 @@ import org.testng.annotations.Test;
 
 import java.io.IOException;
 import java.sql.*;
+import java.util.ArrayList;
 
 
 public class standingLineList extends TestBase {
@@ -26,9 +27,9 @@ public class standingLineList extends TestBase {
     RestClient restClient;
     CloseableHttpResponse closeableHttpResponse;
     final static Logger log = Logger.getLogger(standingLineList.class);
-    String DB_URL = "jdbc:mariadb://192.168.2.60:31007/elec_cloud";
-    String USER = "root";
-    String PASSWD = "v@aseit.0N9B";
+    String db_url;
+    String user;
+    String passwd;
     Connection conn;
     Statement stmt;
 
@@ -36,8 +37,11 @@ public class standingLineList extends TestBase {
     public void setUp(){
         testBase = new TestBase();
         host = prop.getProperty("HOST");
-        api = prop.getProperty("standing_line_list");
+        api = prop.getProperty("Standing_Line_List");
         url = host + api;
+        db_url = prop.getProperty("DB_URL");
+        user = prop.getProperty("USER");
+        passwd = prop.getProperty("PASSWD");
 
     }
 
@@ -58,24 +62,35 @@ public class standingLineList extends TestBase {
         Reporter.log("返回码：" + responseStatusCode);
         Reporter.log("接口响应：" + responseString);
 
+        //解析JSON
         JSONObject reponseJson = JSON.parseObject(responseString);
-        String s = TestUtil.getValueByJPath(reponseJson,"data[0]/id");
-        System.out.println(s);
+        String n = TestUtil.getValueByJPath(reponseJson,"data[0]/name");
+        log.info("接口响应data[0]中包含：" + n);
 
-        //查询数据库
+        //查询数据库,查询type为1的location名称
         try {
             Class.forName("org.mariadb.jdbc.Driver");
-            conn = DriverManager.getConnection(DB_URL,USER,PASSWD);
+            conn = DriverManager.getConnection(db_url,user,passwd);
             stmt = conn.createStatement();
-            String sql = "SELECT id,name,type FROM location where id =\"" + s + "\"";
-
+            String sql = "SELECT id,name,type FROM location where type = \"1\"";
+            //String sql = "SELECT id,name,type FROM location WHERE id = \"f958679b62c9405081ec31742d0423a9\"";
             ResultSet rs = stmt.executeQuery(sql);
-            String id = null;
+
+            //将查询结果存入ArrayList
+            ArrayList<String> nameList = new ArrayList<String>();
             while (rs.next()){
-                id = rs.getString("id");
-                System.out.println(id);
+                nameList.add(rs.getString("name"));
             }
-//            Assert.assertEquals(id,s,"is equal");
+
+            //遍历ArrayList
+            for (String str : nameList){
+                log.info("数据库中包含：" + str);
+            }
+
+            //断言nameList中是否包换data[0]name
+            boolean contain = nameList.contains(n);
+            Assert.assertEquals(contain,true,"is not equal");
+
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
         } catch (SQLException e) {
