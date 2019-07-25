@@ -48,7 +48,6 @@
                 <configuration>
                     <suiteXmlFiles>
                         <suiteXmlFile>TestNg.xml</suiteXmlFile>
-                        <testFailureIgnore>true</testFailureIgnore>
                     </suiteXmlFiles>
                 </configuration>
             </plugin>
