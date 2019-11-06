@@ -1,40 +1,8 @@
-2019-11-06 16:13:04 536 INFO  PostApiTest:43 - ----------开始执行用例getApiTest...----------
-2019-11-06 16:13:04 539 INFO  PostApiTest:46 - 导入请求头
-2019-11-06 16:13:04 846 INFO  RestClient:78 - 开始发送post请求...
-2019-11-06 16:13:05 946 INFO  RestClient:80 - 发送请求成功！开始得到响应对象。
-2019-11-06 16:13:05 947 INFO  PostApiTest:60 - 测试响应状态码是否是201
-2019-11-06 16:13:05 985 INFO  PostApiTest:69 - 执行JSON解析，解析的内容是 Anthony
-2019-11-06 16:13:05 986 INFO  PostApiTest:71 - 执行JSON解析，解析的内容是 tester
-2019-11-06 16:13:05 986 INFO  PostApiTest:72 - 接口内容响应断言
-2019-11-06 16:13:05 986 INFO  PostApiTest:75 - ----------用例执行结束...----------
-2019-11-06 16:13:05 988 INFO  GetApiTest:37 - ----------开始执行用例getApiTest...----------
-2019-11-06 16:13:05 990 INFO  RestClient:29 - 开始发送get请求...
-2019-11-06 16:13:06 663 INFO  RestClient:31 - 发送请求成功！开始得到响应对象。
-2019-11-06 16:13:06 663 INFO  GetApiTest:41 - https://reqres.in/api/users?page=2
-2019-11-06 16:13:06 663 INFO  GetApiTest:43 - 测试响应状态码是否是200
-2019-11-06 16:13:06 664 INFO  GetApiTest:51 - {"page":2,"per_page":6,"total":12,"total_pages":2,"data":[{"id":7,"email":"michael.lawson@reqres.in","first_name":"Michael","last_name":"Lawson","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/follettkyle/128.jpg"},{"id":8,"email":"lindsay.ferguson@reqres.in","first_name":"Lindsay","last_name":"Ferguson","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/araa3185/128.jpg"},{"id":9,"email":"tobias.funke@reqres.in","first_name":"Tobias","last_name":"Funke","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/vivekprvr/128.jpg"},{"id":10,"email":"byron.fields@reqres.in","first_name":"Byron","last_name":"Fields","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/russoedu/128.jpg"},{"id":11,"email":"george.edwards@reqres.in","first_name":"George","last_name":"Edwards","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/mrmoiree/128.jpg"},{"id":12,"email":"rachel.howell@reqres.in","first_name":"Rachel","last_name":"Howell","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/hebertialmeida/128.jpg"}]}
-2019-11-06 16:13:06 664 INFO  GetApiTest:53 - 执行JSON解析，解析的内容是 Michael
-2019-11-06 16:13:06 665 INFO  GetApiTest:54 - 接口内容响应断言
-2019-11-06 16:13:06 665 INFO  GetApiTest:56 - ----------用例执行结束...----------
-2019-11-06 16:13:06 665 INFO  GetApiTest:60 - ----------开始执行用例getApiTest02...----------
-2019-11-06 16:13:06 666 INFO  GetApiTest:62 - 导入请求头
-2019-11-06 16:13:06 667 INFO  RestClient:52 - 开始发送get请求...
-2019-11-06 16:13:07 352 INFO  RestClient:54 - 发送请求成功！开始得到响应对象。
-2019-11-06 16:13:07 352 INFO  GetApiTest:67 - https://reqres.in/api/users?page=2
-2019-11-06 16:13:07 353 INFO  GetApiTest:69 - 测试响应状态码是否是200
-2019-11-06 16:13:07 353 INFO  GetApiTest:77 - 执行JSON解析，解析的内容是 Michael
-2019-11-06 16:13:07 354 INFO  GetApiTest:78 - 接口内容响应断言
-2019-11-06 16:13:07 354 INFO  GetApiTest:80 - ----------用例执行结束...----------
-2019-11-06 16:13:07 355 INFO  PutApiTest:42 - ----------开始执行用例putApiTest...----------
-2019-11-06 16:13:07 355 INFO  PutApiTest:45 - 导入请求头
-2019-11-06 16:13:07 356 INFO  RestClient:104 - 开始发送put请求...
-2019-11-06 16:13:08 356 INFO  RestClient:106 - 发送请求成功！开始得到响应对象。
-2019-11-06 16:13:08 357 INFO  PutApiTest:56 - 测试响应状态码是否是200
-2019-11-06 16:13:08 358 INFO  PutApiTest:64 - 执行JSON解析，解析的内容是 automation tester
-2019-11-06 16:13:08 359 INFO  PutApiTest:65 - 接口内容响应断言
-2019-11-06 16:13:08 359 INFO  PutApiTest:67 - ----------用例执行结束...----------
-2019-11-06 16:13:08 360 INFO  DeleteApiTest:34 - ----------开始执行用例deleteApiTest...----------
-2019-11-06 16:13:08 369 INFO  RestClient:123 - 开始发送delete请求...
-2019-11-06 16:13:10 037 INFO  RestClient:125 - 发送请求成功！开始得到响应对象。
-2019-11-06 16:13:10 038 INFO  DeleteApiTest:40 - 测试响应状态码是否是204
-2019-11-06 16:13:10 039 INFO  DeleteApiTest:49 - ----------用例执行结束...----------
+2019-11-06 16:49:50 735 INFO  MLog:212 - MLog clients using slf4j logging.
+2019-11-06 16:49:51 000 INFO  C3P0Registry:212 - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+2019-11-06 16:49:51 041 INFO  DBPool:43 - put a dataSource in cloud's DBPool
+2019-11-06 16:49:51 056 INFO  AbstractPoolBackedDataSource:212 - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 1, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 3000, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> cloud, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> org.mariadb.jdbc.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 1hgeby9a6hqc4atf0b1v|3b192d32, idleConnectionTestPeriod -> 60, initialPoolSize -> 3, jdbcUrl -> jdbc:mariadb://127.0.0.1:3306, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 60, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 3, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 1, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+2019-11-06 16:49:51 160 INFO  DBPool:60 - 关闭connection
+2019-11-06 16:49:51 178 INFO  DBPool:43 - put a dataSource in fog's DBPool
+2019-11-06 16:49:51 183 INFO  AbstractPoolBackedDataSource:212 - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 1, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 3000, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> fog, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> org.mariadb.jdbc.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 1hgeby9a6hqc4atf0b1v|13fee20c, idleConnectionTestPeriod -> 60, initialPoolSize -> 3, jdbcUrl -> jdbc:mariadb://127.0.0.1:3306, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 60, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 3, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 1, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+2019-11-06 16:49:51 185 INFO  DBPool:60 - 关闭connection
