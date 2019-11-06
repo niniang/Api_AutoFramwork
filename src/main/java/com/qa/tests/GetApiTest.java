@@ -38,6 +38,7 @@ public class GetApiTest extends TestBase{
         restClient = new RestClient();
         closeableHttpResponse = restClient.get(url);
         Reporter.log("接口地址：" + url);
+        Log.info(url);
 
         Log.info("测试响应状态码是否是200");
         int responseStatusCode = closeableHttpResponse.getStatusLine().getStatusCode();
@@ -47,10 +48,11 @@ public class GetApiTest extends TestBase{
 
         JSONObject responseJson = JSON.parseObject(responseString);
         Reporter.log("接口响应：" + responseString);
+        Log.info(responseString);
         String s = TestUtil.getValueByJPath(responseJson,"data[0]/first_name");
         Log.info("执行JSON解析，解析的内容是 " + s);
         Log.info("接口内容响应断言");
-        Assert.assertEquals(s, "Eve","first name is not Eve");
+        Assert.assertEquals(s, "Michael","first name is not Michael");
         Log.info("----------用例执行结束...----------");
     }
     @Test
@@ -62,6 +64,7 @@ public class GetApiTest extends TestBase{
         headerMap.put("Content-Type", "application/json");
         closeableHttpResponse = restClient.get(url,headerMap);
         Reporter.log("接口地址：" + url);
+        Log.info(url);
 
         Log.info("测试响应状态码是否是200");
         int responseStatusCode = closeableHttpResponse.getStatusLine().getStatusCode();
@@ -73,7 +76,7 @@ public class GetApiTest extends TestBase{
         String s = TestUtil.getValueByJPath(responseJson,"data[0]/first_name");
         Log.info("执行JSON解析，解析的内容是 " + s);
         Log.info("接口内容响应断言");
-        Assert.assertEquals(s,"Eve","first name is not Eve");
+        Assert.assertEquals(s,"Michael","first name is not Michael");
         Log.info("----------用例执行结束...----------");
     }
 }

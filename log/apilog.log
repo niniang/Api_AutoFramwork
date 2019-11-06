@@ -1,37 +1,40 @@
-2019-07-25 14:22:57 022 INFO  PostApiTest:43 - ----------开始执行用例getApiTest...----------
-2019-07-25 14:22:57 025 INFO  PostApiTest:46 - 导入请求头
-2019-07-25 14:22:57 241 INFO  RestClient:78 - 开始发送post请求...
-2019-07-25 14:22:58 671 INFO  RestClient:80 - 发送请求成功！开始得到响应对象。
-2019-07-25 14:22:58 671 INFO  PostApiTest:60 - 测试响应状态码是否是201
-2019-07-25 14:22:58 709 INFO  PostApiTest:69 - 执行JSON解析，解析的内容是 Anthony
-2019-07-25 14:22:58 710 INFO  PostApiTest:71 - 执行JSON解析，解析的内容是 tester
-2019-07-25 14:22:58 710 INFO  PostApiTest:72 - 接口内容响应断言
-2019-07-25 14:22:58 710 INFO  PostApiTest:75 - ----------用例执行结束...----------
-2019-07-25 14:22:58 712 INFO  GetApiTest:37 - ----------开始执行用例getApiTest...----------
-2019-07-25 14:22:58 715 INFO  RestClient:29 - 开始发送get请求...
-2019-07-25 14:22:59 403 INFO  RestClient:31 - 发送请求成功！开始得到响应对象。
-2019-07-25 14:22:59 403 INFO  GetApiTest:42 - 测试响应状态码是否是200
-2019-07-25 14:22:59 404 INFO  GetApiTest:51 - 执行JSON解析，解析的内容是 Eve
-2019-07-25 14:22:59 404 INFO  GetApiTest:52 - 接口内容响应断言
-2019-07-25 14:22:59 404 INFO  GetApiTest:54 - ----------用例执行结束...----------
-2019-07-25 14:22:59 405 INFO  GetApiTest:58 - ----------开始执行用例getApiTest02...----------
-2019-07-25 14:22:59 406 INFO  GetApiTest:60 - 导入请求头
-2019-07-25 14:22:59 407 INFO  RestClient:52 - 开始发送get请求...
-2019-07-25 14:23:00 098 INFO  RestClient:54 - 发送请求成功！开始得到响应对象。
-2019-07-25 14:23:00 099 INFO  GetApiTest:66 - 测试响应状态码是否是200
-2019-07-25 14:23:00 099 INFO  GetApiTest:74 - 执行JSON解析，解析的内容是 Eve
-2019-07-25 14:23:00 099 INFO  GetApiTest:75 - 接口内容响应断言
-2019-07-25 14:23:00 099 INFO  GetApiTest:77 - ----------用例执行结束...----------
-2019-07-25 14:23:00 100 INFO  PutApiTest:42 - ----------开始执行用例putApiTest...----------
-2019-07-25 14:23:00 100 INFO  PutApiTest:45 - 导入请求头
-2019-07-25 14:23:00 102 INFO  RestClient:104 - 开始发送put请求...
-2019-07-25 14:23:04 970 INFO  RestClient:106 - 发送请求成功！开始得到响应对象。
-2019-07-25 14:23:04 970 INFO  PutApiTest:56 - 测试响应状态码是否是200
-2019-07-25 14:23:04 971 INFO  PutApiTest:64 - 执行JSON解析，解析的内容是 automation tester
-2019-07-25 14:23:04 971 INFO  PutApiTest:65 - 接口内容响应断言
-2019-07-25 14:23:04 971 INFO  PutApiTest:67 - ----------用例执行结束...----------
-2019-07-25 14:23:04 972 INFO  DeleteApiTest:34 - ----------开始执行用例deleteApiTest...----------
-2019-07-25 14:23:04 980 INFO  RestClient:123 - 开始发送delete请求...
-2019-07-25 14:23:05 978 INFO  RestClient:125 - 发送请求成功！开始得到响应对象。
-2019-07-25 14:23:05 978 INFO  DeleteApiTest:40 - 测试响应状态码是否是204
-2019-07-25 14:23:05 978 INFO  DeleteApiTest:49 - ----------用例执行结束...----------
+2019-11-06 16:13:04 536 INFO  PostApiTest:43 - ----------开始执行用例getApiTest...----------
+2019-11-06 16:13:04 539 INFO  PostApiTest:46 - 导入请求头
+2019-11-06 16:13:04 846 INFO  RestClient:78 - 开始发送post请求...
+2019-11-06 16:13:05 946 INFO  RestClient:80 - 发送请求成功！开始得到响应对象。
+2019-11-06 16:13:05 947 INFO  PostApiTest:60 - 测试响应状态码是否是201
+2019-11-06 16:13:05 985 INFO  PostApiTest:69 - 执行JSON解析，解析的内容是 Anthony
+2019-11-06 16:13:05 986 INFO  PostApiTest:71 - 执行JSON解析，解析的内容是 tester
+2019-11-06 16:13:05 986 INFO  PostApiTest:72 - 接口内容响应断言
+2019-11-06 16:13:05 986 INFO  PostApiTest:75 - ----------用例执行结束...----------
+2019-11-06 16:13:05 988 INFO  GetApiTest:37 - ----------开始执行用例getApiTest...----------
+2019-11-06 16:13:05 990 INFO  RestClient:29 - 开始发送get请求...
+2019-11-06 16:13:06 663 INFO  RestClient:31 - 发送请求成功！开始得到响应对象。
+2019-11-06 16:13:06 663 INFO  GetApiTest:41 - https://reqres.in/api/users?page=2
+2019-11-06 16:13:06 663 INFO  GetApiTest:43 - 测试响应状态码是否是200
+2019-11-06 16:13:06 664 INFO  GetApiTest:51 - {"page":2,"per_page":6,"total":12,"total_pages":2,"data":[{"id":7,"email":"michael.lawson@reqres.in","first_name":"Michael","last_name":"Lawson","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/follettkyle/128.jpg"},{"id":8,"email":"lindsay.ferguson@reqres.in","first_name":"Lindsay","last_name":"Ferguson","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/araa3185/128.jpg"},{"id":9,"email":"tobias.funke@reqres.in","first_name":"Tobias","last_name":"Funke","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/vivekprvr/128.jpg"},{"id":10,"email":"byron.fields@reqres.in","first_name":"Byron","last_name":"Fields","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/russoedu/128.jpg"},{"id":11,"email":"george.edwards@reqres.in","first_name":"George","last_name":"Edwards","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/mrmoiree/128.jpg"},{"id":12,"email":"rachel.howell@reqres.in","first_name":"Rachel","last_name":"Howell","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/hebertialmeida/128.jpg"}]}
+2019-11-06 16:13:06 664 INFO  GetApiTest:53 - 执行JSON解析，解析的内容是 Michael
+2019-11-06 16:13:06 665 INFO  GetApiTest:54 - 接口内容响应断言
+2019-11-06 16:13:06 665 INFO  GetApiTest:56 - ----------用例执行结束...----------
+2019-11-06 16:13:06 665 INFO  GetApiTest:60 - ----------开始执行用例getApiTest02...----------
+2019-11-06 16:13:06 666 INFO  GetApiTest:62 - 导入请求头
+2019-11-06 16:13:06 667 INFO  RestClient:52 - 开始发送get请求...
+2019-11-06 16:13:07 352 INFO  RestClient:54 - 发送请求成功！开始得到响应对象。
+2019-11-06 16:13:07 352 INFO  GetApiTest:67 - https://reqres.in/api/users?page=2
+2019-11-06 16:13:07 353 INFO  GetApiTest:69 - 测试响应状态码是否是200
+2019-11-06 16:13:07 353 INFO  GetApiTest:77 - 执行JSON解析，解析的内容是 Michael
+2019-11-06 16:13:07 354 INFO  GetApiTest:78 - 接口内容响应断言
+2019-11-06 16:13:07 354 INFO  GetApiTest:80 - ----------用例执行结束...----------
+2019-11-06 16:13:07 355 INFO  PutApiTest:42 - ----------开始执行用例putApiTest...----------
+2019-11-06 16:13:07 355 INFO  PutApiTest:45 - 导入请求头
+2019-11-06 16:13:07 356 INFO  RestClient:104 - 开始发送put请求...
+2019-11-06 16:13:08 356 INFO  RestClient:106 - 发送请求成功！开始得到响应对象。
+2019-11-06 16:13:08 357 INFO  PutApiTest:56 - 测试响应状态码是否是200
+2019-11-06 16:13:08 358 INFO  PutApiTest:64 - 执行JSON解析，解析的内容是 automation tester
+2019-11-06 16:13:08 359 INFO  PutApiTest:65 - 接口内容响应断言
+2019-11-06 16:13:08 359 INFO  PutApiTest:67 - ----------用例执行结束...----------
+2019-11-06 16:13:08 360 INFO  DeleteApiTest:34 - ----------开始执行用例deleteApiTest...----------
+2019-11-06 16:13:08 369 INFO  RestClient:123 - 开始发送delete请求...
+2019-11-06 16:13:10 037 INFO  RestClient:125 - 发送请求成功！开始得到响应对象。
+2019-11-06 16:13:10 038 INFO  DeleteApiTest:40 - 测试响应状态码是否是204
+2019-11-06 16:13:10 039 INFO  DeleteApiTest:49 - ----------用例执行结束...----------
