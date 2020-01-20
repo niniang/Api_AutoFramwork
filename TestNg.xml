@@ -3,10 +3,8 @@
 <suite name="Default Suite">
   <test name="Api_AutoFramwork">
     <classes>
-      <class name="com.qa.tests.PostApiTest"></class>
-      <class name="com.qa.tests.GetApiTest"></class>
-      <class name="com.qa.tests.PutApiTest"></class>
-      <class name="com.qa.tests.DeleteApiTest"></class>
+      <class name="com.qa.tests.LoginTest"></class>
+      <class name="com.qa.tests.ContextTest"></class>
     </classes>
   </test> <!-- Api_AutoFramwork -->
 
