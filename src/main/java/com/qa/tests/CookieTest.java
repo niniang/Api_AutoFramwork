@@ -9,6 +9,7 @@ import org.apache.http.entity.StringEntity;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
 import org.apache.http.message.BasicHeader;
+import org.apache.http.util.EntityUtils;
 import org.testng.annotations.Test;
 
 import java.io.FileInputStream;
@@ -25,6 +26,7 @@ public class CookieTest {
     @Test
     public void getCookie() throws UnsupportedEncodingException {
         CloseableHttpClient httpClient = HttpClients.createDefault();
+        CloseableHttpClient httpClient02 = HttpClients.createDefault();
         //HttpGet get=new HttpGet("http://www.baidu.com");
         HttpPost post = new HttpPost("http://192.168.2.60:10090/api/auth/session/login");
         HashMap<String,String> headerMap = new HashMap<String, String>();
@@ -39,6 +41,8 @@ public class CookieTest {
         try {
             //CloseableHttpResponse response = httpClient.execute(get, context);
             CloseableHttpResponse response = httpClient.execute(post,context);
+            String responseString = EntityUtils.toString(response.getEntity(),"Utf-8");
+            System.out.println(responseString);
             try{
                 System.out.println(">>>>>>headers:");
                 Arrays.stream(response.getAllHeaders()).forEach(System.out::println);
@@ -49,8 +53,8 @@ public class CookieTest {
                 FileUtil.setValue("cookie",cookie);
 
                 HttpGet get = new HttpGet("http://192.168.2.60:10090/api/auth/company_tree");
-                get.addHeader(new BasicHeader("Cookie",cookie));
-                CloseableHttpResponse response02 = httpClient.execute(get);
+                //get.addHeader(new BasicHeader("Cookie",cookie));
+                CloseableHttpResponse response02 = httpClient02.execute(get);
                 int responseStatusCode = response02.getStatusLine().getStatusCode();
                 System.out.println(responseStatusCode);
 
