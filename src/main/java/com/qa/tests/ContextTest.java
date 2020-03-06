@@ -9,6 +9,9 @@ import org.testng.annotations.Test;
 
 import java.io.IOException;
 
+/**
+ * 失败之作，请勿参考
+ */
 public class ContextTest {
     LoginTest loginTest = new LoginTest();
     HttpClientContext context = loginTest.context;

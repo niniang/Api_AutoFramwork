@@ -52,12 +52,6 @@ public class CookieTest {
                 System.out.println(cookie);
                 FileUtil.setValue("cookie",cookie);
 
-                HttpGet get = new HttpGet("http://192.168.2.60:10090/api/auth/company_tree");
-                //get.addHeader(new BasicHeader("Cookie",cookie));
-                CloseableHttpResponse response02 = httpClient02.execute(get);
-                int responseStatusCode = response02.getStatusLine().getStatusCode();
-                System.out.println(responseStatusCode);
-
             }
             finally {
                 response.close();

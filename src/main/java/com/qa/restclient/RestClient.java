@@ -1,6 +1,8 @@
 package com.qa.restclient;
 
+import org.apache.http.client.CookieStore;
 import org.apache.http.client.methods.*;
+import org.apache.http.client.protocol.HttpClientContext;
 import org.apache.http.entity.StringEntity;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
@@ -8,8 +10,11 @@ import org.apache.log4j.Logger;
 
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
+
+import static com.qa.util.CookieUtil.saveCookieStore;
 
 public class RestClient {
     final static Logger Log = Logger.getLogger(RestClient.class);
@@ -123,6 +128,36 @@ public class RestClient {
         Log.info("开始发送delete请求...");
         CloseableHttpResponse httpResponse = httpClient.execute(httpDelete);
         Log.info("发送请求成功！开始得到响应对象。");
+        return httpResponse;
+    }
+    /**
+     * 登录方法，储存cookie到cookie.properties
+     *
+     */
+    public CloseableHttpResponse login(String url,String entityString,HashMap<String,String> headerMap) throws IOException {
+        //创建一个可关闭的HttpClient对象
+        CloseableHttpClient httpClient = HttpClients.createDefault();
+        //创建一个Context对象用于获取cookie
+        HttpClientContext context = HttpClientContext.create();
+        HttpPost httpPost = new HttpPost(url);
+        //设置payload
+        httpPost.setEntity(new StringEntity(entityString));
+        //加载请求头到httpPost对象
+        for(Map.Entry<String,String> entity : headerMap.entrySet()){
+            httpPost.addHeader(entity.getKey(),entity.getValue());
+        }
+        //执行请求
+        Log.info("开始发送post请求...");
+        CloseableHttpResponse httpResponse = httpClient.execute(httpPost,context);
+        Log.info("发送请求成功！开始得到响应对象。");
+        Log.info("从请求结果中获取Cookie");
+        CookieStore cookieStore = context.getCookieStore();
+        Log.info("将它保存到cookie.properties");
+        saveCookieStore(cookieStore,System.getProperty("user.dir") + "/src/main/java/com/qa/config/cookie.properties");
+        Log.info(">>>>>>headers:");
+        Arrays.stream(httpResponse.getAllHeaders()).forEach(System.out::println);
+        Log.info(">>>>>>cookies:");
+        context.getCookieStore().getCookies().forEach(System.out::println);
         return httpResponse;
     }
 }

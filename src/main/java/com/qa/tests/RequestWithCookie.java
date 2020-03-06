@@ -28,7 +28,8 @@ public class RequestWithCookie {
         }
         String content = "{\"username\":\"940617\",\"password\":\"000000\",\"vcode\":\"\"}";
         post.setEntity(new StringEntity(content));
-        CloseableHttpResponse response = httpClient.execute(post,context);
+        //CloseableHttpResponse response =
+                httpClient.execute(post,context);
 
         //从请求结果中获取Cookie，此时的Cookie已经带有登录信息了
         CookieStore cookieStore = context.getCookieStore();
