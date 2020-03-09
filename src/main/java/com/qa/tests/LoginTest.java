@@ -28,7 +28,7 @@ public class LoginTest extends TestBase {
     RestClient restClient;
     CloseableHttpResponse closeableHttpResponse;
     HttpClientContext context = HttpClientContext.create();
-    final static Logger Log = Logger.getLogger(GetApiTest.class);
+    final static Logger Log = Logger.getLogger(LoginTest.class);
 
     @Test
     public void getCookie() throws UnsupportedEncodingException {

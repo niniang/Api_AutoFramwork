@@ -34,7 +34,7 @@ public class PostApiTest extends TestBase {
         url = host + api;
 
         //配置文件写入请求体
-        userJsonString = contect.getProperty("Post");
+        userJsonString = content.getProperty("Post");
         System.out.println(userJsonString);
         //url = host + "/api/users";
     }

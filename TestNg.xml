@@ -3,8 +3,8 @@
 <suite name="Default Suite">
   <test name="Api_AutoFramwork">
     <classes>
-      <class name="com.qa.tests.LoginTest"></class>
-      <class name="com.qa.tests.ContextTest"></class>
+      <class name="com.qa.tests.LoginTest02"></class>
+      <class name="com.qa.tests.GetApiWithCookieTest"></class>
     </classes>
   </test> <!-- Api_AutoFramwork -->
 

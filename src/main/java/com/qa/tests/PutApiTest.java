@@ -34,7 +34,7 @@ public class PutApiTest extends TestBase{
         api = prop.getProperty("PutApi");
         url = host + api;
         //url = host + "/api/users/2";
-        jsonString = contect.getProperty("Put");
+        jsonString = content.getProperty("Put");
     }
 
     @Test

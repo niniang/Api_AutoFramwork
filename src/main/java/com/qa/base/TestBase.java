@@ -7,7 +7,7 @@ import java.util.Properties;
 
 public class TestBase {
     public Properties prop;
-    public Properties contect;
+    public Properties content;
     public int RESPNSE_STATUS_CODE_200 = 200;
     public int RESPNSE_STATUS_CODE_201 = 201;
     public int RESPNSE_STATUS_CODE_204 = 204;
@@ -16,12 +16,12 @@ public class TestBase {
 
     public TestBase(){
         prop = new Properties();
-        contect = new Properties();
+        content = new Properties();
         try {
             FileInputStream fis = new FileInputStream(System.getProperty("user.dir") + "/src/main/java/com/qa/config/config.properties");
             prop.load(fis);
             FileInputStream fis1 = new FileInputStream(System.getProperty("user.dir") + "/src/main/java/com/qa/config/content.properties");
-            contect.load(fis1);
+            content.load(fis1);
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } catch (IOException e) {
