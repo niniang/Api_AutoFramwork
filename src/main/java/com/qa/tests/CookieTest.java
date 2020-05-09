@@ -21,6 +21,9 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Properties;
 
+/**
+ * 测试打印cookie和header
+ */
 public class CookieTest {
 
     @Test

@@ -3,7 +3,6 @@ package com.qa.tests;
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
 import com.qa.base.TestBase;
-import com.qa.parameters.User;
 import com.qa.restclient.RestClient;
 import com.qa.util.TestUtil;
 import org.apache.http.client.methods.CloseableHttpResponse;

@@ -1,20 +1,18 @@
-2020-03-09 17:14:51 662 INFO  LoginTest02:34 - ----------开始执行用例loginTest02...----------
-2020-03-09 17:14:51 665 INFO  LoginTest02:37 - url:http://192.168.2.60:10090/api/auth/session/login
-2020-03-09 17:14:51 665 INFO  LoginTest02:38 - content:{"username":"940617","password":"000000","vcode":""}
-2020-03-09 17:14:51 665 INFO  LoginTest02:40 - 导入请求头
-2020-03-09 17:14:51 665 INFO  LoginTest02:44 - 请求登录接口
-2020-03-09 17:14:51 890 INFO  RestClient:197 - 开始发送post请求...
-2020-03-09 17:14:51 928 INFO  RestClient:199 - 发送请求成功！开始得到响应对象。
-2020-03-09 17:14:51 928 INFO  RestClient:200 - 从请求结果中获取Cookie
-2020-03-09 17:14:51 928 INFO  RestClient:202 - 将它保存到cookie.properties
-2020-03-09 17:14:51 936 INFO  RestClient:204 - >>>>>>headers:
-2020-03-09 17:14:51 936 INFO  RestClient:206 - >>>>>>cookies:
-2020-03-09 17:14:51 937 INFO  LoginTest02:47 - 测试响应状态码是否是200
-2020-03-09 17:14:51 944 INFO  GetApiWithCookieTest:34 - ----------开始执行用例GetApiWithCookieTest...----------
-2020-03-09 17:14:51 944 INFO  GetApiWithCookieTest:36 - url:http://192.168.2.60:10090/api/auth/company_tree
-2020-03-09 17:14:51 944 INFO  GetApiWithCookieTest:38 - 获取cookie
-2020-03-09 17:14:51 949 INFO  GetApiWithCookieTest:41 - 请求get接口
-2020-03-09 17:14:51 952 INFO  RestClient:100 - 开始发送get请求...
-2020-03-09 17:14:51 969 INFO  RestClient:102 - 发送请求成功！开始得到响应对象。
-2020-03-09 17:14:51 969 INFO  GetApiWithCookieTest:44 - 测试响应状态码是否是200
-2020-03-09 17:14:51 969 INFO  GetApiWithCookieTest:47 - 状态码：200
+2020-05-09 18:09:31 516 INFO  GetApiTest:37 - ----------开始执行用例getApiTest...----------
+2020-05-09 18:09:31 727 INFO  RestClient:35 - 开始发送get请求...
+2020-05-09 18:09:32 742 INFO  RestClient:37 - 发送请求成功！开始得到响应对象。
+2020-05-09 18:09:32 742 INFO  GetApiTest:41 - https://reqres.in/api/users?page=2
+2020-05-09 18:09:32 742 INFO  GetApiTest:43 - 测试响应状态码是否是200
+2020-05-09 18:09:32 782 INFO  GetApiTest:51 - {"page":2,"per_page":6,"total":12,"total_pages":2,"data":[{"id":7,"email":"michael.lawson@reqres.in","first_name":"Michael","last_name":"Lawson","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/follettkyle/128.jpg"},{"id":8,"email":"lindsay.ferguson@reqres.in","first_name":"Lindsay","last_name":"Ferguson","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/araa3185/128.jpg"},{"id":9,"email":"tobias.funke@reqres.in","first_name":"Tobias","last_name":"Funke","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/vivekprvr/128.jpg"},{"id":10,"email":"byron.fields@reqres.in","first_name":"Byron","last_name":"Fields","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/russoedu/128.jpg"},{"id":11,"email":"george.edwards@reqres.in","first_name":"George","last_name":"Edwards","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/mrmoiree/128.jpg"},{"id":12,"email":"rachel.howell@reqres.in","first_name":"Rachel","last_name":"Howell","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/hebertialmeida/128.jpg"}],"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+2020-05-09 18:09:32 783 INFO  GetApiTest:53 - 执行JSON解析，解析的内容是 Michael
+2020-05-09 18:09:32 783 INFO  GetApiTest:54 - 接口内容响应断言
+2020-05-09 18:09:32 783 INFO  GetApiTest:56 - ----------用例执行结束...----------
+2020-05-09 18:09:32 785 INFO  GetApiTest:60 - ----------开始执行用例getApiTest02...----------
+2020-05-09 18:09:32 785 INFO  GetApiTest:62 - 导入请求头
+2020-05-09 18:09:32 787 INFO  RestClient:58 - 开始发送get请求...
+2020-05-09 18:09:33 640 INFO  RestClient:60 - 发送请求成功！开始得到响应对象。
+2020-05-09 18:09:33 641 INFO  GetApiTest:67 - https://reqres.in/api/users?page=2
+2020-05-09 18:09:33 642 INFO  GetApiTest:69 - 测试响应状态码是否是200
+2020-05-09 18:09:33 644 INFO  GetApiTest:77 - 执行JSON解析，解析的内容是 Michael
+2020-05-09 18:09:33 647 INFO  GetApiTest:78 - 接口内容响应断言
+2020-05-09 18:09:33 648 INFO  GetApiTest:80 - ----------用例执行结束...----------

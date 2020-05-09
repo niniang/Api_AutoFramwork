@@ -24,7 +24,6 @@ public class PostApiTest extends TestBase {
     RestClient restClient;
     CloseableHttpResponse closeableHttpResponse;
     final static Logger Log = Logger.getLogger(PostApiTest.class);
-    testCase1 testCase1;
 
     @BeforeClass
     public void setUp(){
